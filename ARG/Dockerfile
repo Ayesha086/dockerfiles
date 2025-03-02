@@ -3,4 +3,4 @@ ENV course="DevOps with AWS" \
     trainer="ayesha" \
     duration="120hrs"
     RUN echo "Hello ${trainer}" > /tmp/devops.txt
-    CMD [ "sleep", "100" ]
+    CMD ["sleep", "100"]
